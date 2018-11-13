@@ -45,7 +45,7 @@ class MenuTransformer extends TransformerAbstract
 		}
 
 
-		$menu_path = "http://scanfood.rkndika.com/public/images/menu/";
+		$menu_path = url('/') . "/public/images/menu/";
 		$photo1 = "";
 		$photo2 = "";
 		$photo3 = "";

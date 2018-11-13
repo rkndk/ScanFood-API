@@ -13,12 +13,12 @@ class PartnerTransformer extends TransformerAbstract
 
 		$photo = "";
 		if($partner->photo != null && $partner->photo != ''){
-			$photo = "http://scanfood.rkndika.com/public/images/partner/" . $partner->photo;
+			$photo = url('/') . "/public/images/partner/" . $partner->photo;
 		}
 
 		$cover ="";
 		if($partner->cover != null && $partner->cover != ''){
-			$cover = "http://scanfood.rkndika.com/public/images/partner/" . $partner->cover;
+			$cover = url('/') . "/public/images/partner/" . $partner->cover;
 		}
 
 		$open_time = "";

@@ -11,7 +11,7 @@ class UserTransformer extends TransformerAbstract
 	{
 		$photo = "";
 		if($user->photo != null && $user->photo != ''){
-			$photo = "http://scanfood.rkndika.com/public/images/user/" . $user->photo;
+			$photo = url('/') . "/public/images/user/" . $user->photo;
 		}
 
 		return [
